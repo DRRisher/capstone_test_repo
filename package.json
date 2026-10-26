@@ -1,0 +1,16 @@
+{
+  "name": "imageit3d-launchit3d",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "ImageIT3D + LaunchIT3D capstone prototype with Meshy Text to 3D",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "express": "4.21.2"
+  }
+}
